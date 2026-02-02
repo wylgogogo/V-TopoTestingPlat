@@ -6,7 +6,22 @@
 
 A comprehensive lab environment management system for deploying and managing network topologies with firewalls, virtual machines, and containers.
 
-My Mom doesn’t have to worry about me running cables all over the computer lab anymore.
+## Why VTTP?
+
+If you are still constantly setting up environments just to test images,  
+or installing multiple machines and wiring everything together to validate a POC solution,
+
+**VTTP (Virtual Topology Testing Platform)** is here to help.
+
+### What VTTP Solves
+
+1. 🚀 **One-click virtualization** of all the environments you need  
+2. 🧩 **Drag-and-drop network topology simulation**, just like connecting real cables  
+3. 🖥️ **Web-based shell access**, no need to log in to physical devices  
+4. 🌶️ **No more running around the data center plugging cables — mom approved**
+
+VTTP helps you focus on **testing and validation**, not environment setup.
+
 
 ![view](./view.png)
 ![shell view](./shell-view.png)
