@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d208eab3-bac0-4732-9497-ad5acc31c9ce" name="更改" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="E:/asset_program_ui/.env" beforeDir="false" afterPath="E:/asset_program_ui/.env" afterDir="false" />
+      <change beforePath="E:/asset_program_ui/instance/asset_management.db" beforeDir="false" afterPath="E:/asset_program_ui/instance/asset_management.db" afterDir="false" />
+      <change beforePath="E:/asset_program_ui/logs/app.log" beforeDir="false" afterPath="E:/asset_program_ui/logs/app.log" afterDir="false" />
+      <change beforePath="E:/asset_program_ui/static/index.html" beforeDir="false" afterPath="E:/asset_program_ui/static/index.html" afterDir="false" />
+      <change beforePath="E:/asset_program_ui/static/script.js" beforeDir="false" afterPath="E:/asset_program_ui/static/script.js" afterDir="false" />
+      <change beforePath="E:/asset_program_ui/static/style.css" beforeDir="false" afterPath="E:/asset_program_ui/static/style.css" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 3
+}]]></component>
+  <component name="ProjectId" id="38HDEFeANqAmkLXhoJ4963hs9Wd" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "Python 测试.测试脚本.test_auth_flow 的 pytest.executor": "Run",
+    "Python.1.executor": "Run",
+    "Python.app.executor": "Run",
+    "Python.bot.executor": "Run",
+    "Python.c.executor": "Run",
+    "Python.db_tool.executor": "Run",
+    "Python.demo (1).executor": "Run",
+    "Python.demo (2).executor": "Run",
+    "Python.demo.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.mantis_to_txt.executor": "Run",
+    "Python.pandas版本.executor": "Run",
+    "Python.qt5协程版.executor": "Run",
+    "Python.qt5版本.executor": "Run",
+    "Python.test.executor": "Run",
+    "Python.tools.executor": "Run",
+    "Python.web.executor": "Run",
+    "Python.web_demo (1).executor": "Run",
+    "Python.分块读取 (1).executor": "Run",
+    "Python.协程版本.executor": "Run",
+    "Python.完整内容筛选.executor": "Run",
+    "Python.拆分大小.executor": "Run",
+    "Python.替换.executor": "Run",
+    "Python.直接读取版本.executor": "Run",
+    "Python.证书.executor": "Run",
+    "Python.证书上传.executor": "Run",
+    "Python.读取csv版本.executor": "Run",
+    "Python.转换csv成txt.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "www",
+    "last_opened_file_path": "D:/fw-lab-v1"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\fw-lab-v1" />
+      <recent name="D:\asset_test\backend" />
+      <recent name="D:\asset_test" />
+      <recent name="E:\python文件\mantistotxt\提取长沙csv\脱敏分块" />
+      <recent name="E:\python文件\mantistotxt\提取长沙csv" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\asset_test\frontend\src\pages" />
+      <recent name="D:\asset_test\frontend" />
+      <recent name="D:\asset_test\frontend\src\components" />
+      <recent name="E:\python文件\mantistotxt" />
+      <recent name="D:\fw-lab-v1" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.app">
+    <configuration name="替换" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python文件" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="E:/python文件/mantistotxt/提取长沙csv" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="E:/python文件/mantistotxt/提取长沙csv/替换.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="证书" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python文件" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="E:/python文件/mantistotxt/提取长沙csv" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="E:/python文件/mantistotxt/提取长沙csv/证书.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="拆分大小" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python文件" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="E:/python文件/mantistotxt/提取长沙csv/脱敏分块" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="E:/python文件/mantistotxt/提取长沙csv/脱敏分块/拆分大小.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="asset_program_ui" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.9" />
+      <option name="WORKING_DIRECTORY" value="E:/asset_program_ui" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="E:/asset_program_ui/app.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="bot" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="tgbot-verify-main" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.9 (3)" />
+      <option name="WORKING_DIRECTORY" value="E:/Decktop/tgbot-verify-main" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="E:/Decktop/tgbot-verify-main/bot.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.app" />
+        <item itemvalue="Python.bot" />
+        <item itemvalue="Python.拆分大小" />
+        <item itemvalue="Python.证书" />
+        <item itemvalue="Python.替换" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-98f27166c754-ba05f1cad1b1-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-242.21829.153" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="d208eab3-bac0-4732-9497-ad5acc31c9ce" name="更改" comment="" />
+      <created>1768447488483</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1768447488483</updated>
+    </task>
+    <servers />
+  </component>
+</project>

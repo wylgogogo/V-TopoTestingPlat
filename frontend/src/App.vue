@@ -7,7 +7,7 @@
           <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
           <path d="M9 12l2 2 4-4"/>
         </svg>
-        <span class="logo-text">FW Lab</span>
+        <span class="logo-text">VTTP</span>
       </div>
 
       <div class="task-controls">
@@ -58,7 +58,7 @@
             <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
             <path d="M9 12l2 2 4-4"/>
           </svg>
-          <h2>欢迎使用 FW Lab</h2>
+          <h2>欢迎使用 VTTP </h2>
           <p>网络拓扑实验平台</p>
           <div class="welcome-actions">
             <div class="action-card" @click="focusNewTask">
@@ -262,7 +262,7 @@
 
     <!-- 底部状态栏 -->
     <footer class="footer">
-      <span>FW Lab v1.0 - 网络拓扑实验平台</span>
+      <span>VTTP v1.0 - 虚拟化拓扑测试平台</span>
       <span class="task-count">任务数: {{ tasks.length }}</span>
     </footer>
   </div>

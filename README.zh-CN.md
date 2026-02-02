@@ -2,9 +2,12 @@
   中文 | <a href="./README.md">English</a>
 </p>
 
-# FW Lab - 虚拟化拓扑测试平台
+# VTTP - 虚拟化拓扑测试平台
 
 一个用于 **部署与管理网络拓扑实验环境** 的综合平台，支持防火墙、虚拟机以及容器等多种资源类型。
+
+![项目界面](./view.png)
+![shell界面](./shell-view.png)
 
 ---
 
@@ -63,18 +66,47 @@ fw-lab-v1/
 
 ## 🔧 安装部署
 
-### 1️⃣ 克隆仓库
+### 1️⃣ 配置DHCP服务器
+sudo apt install -y dnsmasq
 
-```bash
-git clone <repository-url>
-cd fw-lab-v1
-```
+#### 编辑配置文件
+sudo vim /etc/dnsmasq.d/mgmt.conf
+
+#### 写入以下内容
+interface=br-mgmt
+bind-interfaces
+dhcp-range=192.168.168.50,192.168.168.200,12h
+dhcp-option=3,192.168.168.1
+dhcp-option=6,192.168.168.1
+
+#### 启动
+sudo systemctl restart dnsmasq
+
+#### 验证dhcp是否正常
+sudo dnsmasq --test
+
+#### 出现以下内容则OK
+dnsmasq: syntax check OK.
 
 ---
 
 ### 2️⃣ 配置管理网络
 
-系统使用管理网桥 `br-mgmt`（`192.168.168.0/24`），请在宿主机上完成配置。
+#### 创建一个libvirt直连网络
+
+```bash
+sudo vim /tmp/br-mgmt.xml
+# 写入
+<network>
+  <name>br-mgmt</name>
+  <forward mode="bridge"/>
+  <bridge name="br-mgmt"/>
+</network>
+# 加载
+sudo virsh net-define /tmp/br-mgmt.xml
+sudo virsh net-start br-mgmt
+sudo virsh net-autostart br-mgmt
+```
 
 关键网络参数（位于 `ipam.py`）：
 
@@ -87,6 +119,8 @@ cd fw-lab-v1
 
 ### 3️⃣ 启动服务
 
+#### 请确保镜像位于/img 目录下
+
 ```bash
 sudo bash start_all.sh
 ```
@@ -94,7 +128,7 @@ sudo bash start_all.sh
 启动后可访问：
 
 * **后端 API**：[http://localhost:8000](http://localhost:8000)
-* **前端界面**：[http://localhost:3000](http://localhost:3000)
+* **前端界面**：[http://localhost:5173](http://localhost:5173)
 
 ---
 
@@ -104,74 +138,6 @@ sudo bash start_all.sh
 curl http://localhost:8000/health
 curl http://localhost:8000/images
 ```
-
----
-
-## 📖 API 接口说明
-
-### 任务管理
-
-* `GET /tasks`：获取任务列表
-* `POST /tasks/{task_name}`：创建任务
-* `GET /tasks/{task_name}`：获取任务详情
-* `DELETE /tasks/{task_name}`：删除任务
-
----
-
-### 拓扑管理
-
-* `POST /tasks/{task_name}/topology`：保存拓扑
-* `GET /tasks/{task_name}/topology`：获取拓扑
-
----
-
-### 环境部署
-
-* `POST /tasks/{task_name}/deploy`：部署实验环境
-* `POST /tasks/{task_name}/destroy`：销毁环境
-* `GET /tasks/{task_name}/status`：查看状态
-
----
-
-### 电源管理
-
-* `POST /tasks/{task_name}/shutdown`：关闭全部节点
-* `POST /tasks/{task_name}/startup`：启动全部节点
-
-节点级操作：
-
-* `shutdown / startup / restart`
-* `GET /tasks/{task_name}/nodes/{node_id}/state`
-
----
-
-### 终端访问
-
-* **容器 WebShell**：`ws://localhost:8000/ws/{container_name}`
-* **虚拟机串口**：`ws://localhost:8000/vmws/{vm_name}`
-
----
-
-## 🎮 使用示例
-
-```bash
-# 创建任务
-curl -X POST http://localhost:8000/tasks/lab1
-
-# 部署环境
-curl -X POST http://localhost:8000/tasks/lab1/deploy
-
-# 查看状态
-curl http://localhost:8000/tasks/lab1/status
-```
-
----
-
-## 🗄️ 数据库结构
-
-* **Tasks**：实验任务
-* **Topology**：拓扑定义（JSON）
-* **DeployedResource**：已部署资源信息
 
 ---
 
@@ -199,31 +165,9 @@ STATIC_IP_END = 250
 
 ---
 
-## 🧑‍💻 开发说明
-
-### 后端
-
-```bash
-uvicorn main:app --reload --host 0.0.0.0 --port 8000
-```
-
-### 前端
-
-```bash
-npm run dev
-```
-
----
-
 ## 🤝 参与贡献
 
 欢迎提交 Issue 与 Pull Request，共同完善项目。
-
----
-
-## 📄 License
-
-待补充
 
 ---
 
