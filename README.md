@@ -29,13 +29,13 @@ fw-lab-v1/
 │   ├── db.py         # Database configuration
 │   ├── webshell.py   # Container terminal
 │   └── vmshell.py    # VM serial console
-├── frontend/         # Vue.js frontend
-│   ├── src/
-│   │   ├── App.vue
-│   │   ├── components/
-│   │   └── api.js
-│   └── index.html
-└── docker-compose.yml
+└── frontend/         # Vue.js frontend
+    ├── src/
+    │   ├── App.vue
+    │   ├── components/
+    │   └── api.js
+    └── index.html
+
 ```
 
 ## 📋 Prerequisites
@@ -79,7 +79,7 @@ Key network settings (configured in `ipam.py`):
 ### 3. Start Services
 
 ```bash
-docker-compose up -d
+sudo bash start_all.sh
 ```
 
 This will start:
