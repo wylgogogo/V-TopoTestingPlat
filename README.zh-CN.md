@@ -35,13 +35,13 @@ fw-lab-v1/
 │   ├── db.py             # 数据库配置
 │   ├── webshell.py       # 容器 Web 终端
 │   └── vmshell.py        # 虚拟机串口控制台
-├── frontend/             # 前端（Vue.js）
-│   ├── src/
-│   │   ├── App.vue
-│   │   ├── components/
-│   │   └── api.js
-│   └── index.html
-└── docker-compose.yml
+└── frontend/             # 前端（Vue.js）
+    ├── src/
+    │   ├── App.vue
+    │   ├── components/
+    │   └── api.js
+    └── index.html
+
 ```
 
 ---
@@ -49,7 +49,6 @@ fw-lab-v1/
 ## 📋 环境依赖
 
 * Linux 主机（已在 Ubuntu 上测试）
-* Docker & Docker Compose
 * KVM / QEMU + libvirt
 * Python 3.10+
 * Node.js 16+（前端开发）
@@ -89,7 +88,7 @@ cd fw-lab-v1
 ### 3️⃣ 启动服务
 
 ```bash
-docker-compose up -d
+sudo bash start_all.sh
 ```
 
 启动后可访问：
