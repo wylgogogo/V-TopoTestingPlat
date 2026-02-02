@@ -6,6 +6,8 @@
 
 A comprehensive lab environment management system for deploying and managing network topologies with firewalls, virtual machines, and containers.
 
+My Mom doesn’t have to worry about me running cables all over the computer lab anymore.
+
 ![view](./view.png)
 ![shell view](./shell-view.png)
 
