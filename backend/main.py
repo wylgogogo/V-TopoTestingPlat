@@ -4,15 +4,13 @@ from db import Base, engine, SessionLocal
 from models import Task, Topology, DeployedResource
 import orchestrator
 import webshell
-import vmshell  # 新增：VM 串口终端
+import vmshell
 import json
 
-# 创建数据库表
 Base.metadata.create_all(engine)
 
 app = FastAPI(title="FW Lab API", version="1.0.0")
 
-# 添加CORS支持
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
