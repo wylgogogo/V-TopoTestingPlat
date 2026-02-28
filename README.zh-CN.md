@@ -133,7 +133,15 @@ sudo virsh net-autostart br-mgmt
 
 ---
 
-### 3️⃣ 启动服务
+### 3️⃣ 拉取容器镜像
+
+`docker pull wylgogogo/ubuntu:pc`
+#### 改一下tag
+`docker tag wylgogogo/ubuntu:pc ubuntu:pc`
+
+---
+
+### 4️⃣ 启动服务
 
 #### 请确保镜像位于/img 目录下
 
@@ -148,7 +156,7 @@ sudo bash start_all.sh
 
 ---
 
-### 4️⃣ 验证服务状态
+### 5⃣ 验证服务状态
 
 ```bash
 curl http://localhost:8000/health
