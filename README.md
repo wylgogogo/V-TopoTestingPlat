@@ -126,7 +126,15 @@ Key network parameters (located in `ipam.py`):
 
 ---
 
-### 3️⃣ start server
+### 3️⃣ Pull image
+
+`docker pull wylgogogo/ubuntu:pc`
+#### change tag
+`docker tag wylgogogo/ubuntu:pc ubuntu:pc`
+
+---
+
+### 4️⃣ start server
 
 ```bash
 sudo bash start_all.sh
@@ -136,7 +144,7 @@ This will start:
 - **Backend API**: [http://localhost:8000](http://localhost:8000)
 - **Frontend**: [http://localhost:5173](http://localhost:5173)
 
-### 4️⃣ Verify Installation
+### 5⃣ Verify Installation
 
 ```bash
 # Check backend health
