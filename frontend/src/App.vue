@@ -3,10 +3,7 @@
     <!-- 顶部导航栏 -->
     <header class="header">
       <div class="logo">
-        <svg class="logo-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-          <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
-          <path d="M9 12l2 2 4-4"/>
-        </svg>
+        <img src="./VTTP.ico" class="welcome-icon">
         <span class="logo-text">VTTP</span>
       </div>
 
@@ -54,10 +51,7 @@
     <main class="main-content">
       <div v-if="!currentTask" class="welcome-screen">
         <div class="welcome-content">
-          <svg class="welcome-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1">
-            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
-            <path d="M9 12l2 2 4-4"/>
-          </svg>
+          <img src="./VTTP.ico" class="welcome-icon">
           <h2>欢迎使用 VTTP </h2>
           <p>网络拓扑实验平台</p>
           <div class="welcome-actions">
